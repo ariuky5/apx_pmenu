@@ -3,7 +3,6 @@ if Config.UseOldEsx then
     TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 end
 
-
 apx_noclip = false
 
 RegisterKeyMapping('MenuPersonal', 'Abre el menu personal.', 'keyboard', 'F10')
