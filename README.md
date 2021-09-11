@@ -1,6 +1,6 @@
 #APX_PMENU
 
-Simple y elegante menu personal con distintos apartados asi como:
+Simple y elegante menú personal con distintos apartados así como:
 
 - Información
 - Documentación
