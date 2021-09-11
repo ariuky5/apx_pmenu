@@ -1,3 +1,8 @@
+if Config.UseOldEsx then
+    ESX = nil
+    TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+end
+
 ESX.RegisterServerCallback("apx-pmenu:havePermissions", function(source, cb)
     local xPlayer = ESX.GetPlayerFromId(source)
 
